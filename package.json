@@ -1,0 +1,16 @@
+{
+  "name": "web-ar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "install": "npm install",
+    "start": "node index.js"
+  },
+  "author": "abhishek dash",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
