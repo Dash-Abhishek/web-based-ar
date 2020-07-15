@@ -4,6 +4,8 @@ const app= express()
 
 app.use(express.static('./'))
 
+const port = process.env.PORT || 3000
+
 app.get("/ar", (req,res)=>{
 
     console.log("got request from",req.host);
@@ -13,6 +15,6 @@ app.get("/ar", (req,res)=>{
 })
 
 
-app.listen(3000,()=>{
+app.listen(port,()=>{
     console.log("app listening on 3000");
 })
